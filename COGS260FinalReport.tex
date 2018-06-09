@@ -5,7 +5,7 @@
 % before loading nips_2018
 
 % ready for submission
-\usepackage{nips_2018}
+\usepackage[preprint]{nips_2018}
 
 % to compile a preprint version, e.g., for submission to arXiv, add
 % add the [preprint] option:
@@ -26,7 +26,7 @@
 \usepackage{nicefrac}       % compact symbols for 1/2, etc.
 \usepackage{microtype}      % microtypography
 
-\title{Formatting instructions for NIPS 2018}
+\title{Seeking Methods to Improve Small Object Detection}
 
 % The \author macro works with any number of authors. There are two
 % commands used to separate the names and addresses of multiple
@@ -39,34 +39,18 @@
 % author name.
 
 \author{
-  David S.~Hippocampus\thanks{Use footnote for providing further
-    information about author (webpage, alternative
-    address)---\emph{not} for acknowledging funding agencies.} \\
+  Shiming Luo\thanks{Use footnote ---\emph{not} for} \\
   Department of Computer Science\\
-  Cranberry-Lemon University\\
-  Pittsburgh, PA 15213 \\
-  \texttt{hippo@cs.cranberry-lemon.edu} \\
+  University of California, San Diego\\
+  9500 Gilman Drive, La Jolla, CA 92093\\
+  \texttt{shl666@eng.ucsd.edu} \\
   %% examples of more authors
-  %% \And
-  %% Coauthor \\
-  %% Affiliation \\
-  %% Address \\
-  %% \texttt{email} \\
-  %% \AND
-  %% Coauthor \\
-  %% Affiliation \\
-  %% Address \\
-  %% \texttt{email} \\
-  %% \And
-  %% Coauthor \\
-  %% Affiliation \\
-  %% Address \\
-  %% \texttt{email} \\
-  %% \And
-  %% Coauthor \\
-  %% Affiliation \\
-  %% Address \\
-  %% \texttt{email} \\
+  \And
+  Yu Zhong \\
+  Department of Computer Science \\
+  University of California, San Diego \\
+  9500 Gilman Drive, La Jolla, CA 92093\\
+  \texttt{yuz871@eng.ucsd.edu} \\
 }
 
 \begin{document}
@@ -75,33 +59,28 @@
 \maketitle
 
 \begin{abstract}
-  The abstract paragraph should be indented \nicefrac{1}{2}~inch
-  (3~picas) on both the left- and right-hand margins. Use 10~point
-  type, with a vertical spacing (leading) of 11~points.  The word
-  \textbf{Abstract} must be centered, bold, and in point size 12. Two
-  line spaces precede the abstract. The abstract must be limited to
-  one paragraph.
+  The following paper discusses several attempts, including enlargement of receptive 
+  field, specific data augmentation, and anchor boxes refinement to increase the confidence
+  level of detecting small objects in one picture, especially human being detection
+  and faces detection. Throughout the entire experiment, reasoning of different
+  methodologies and results are provided in the following sections.
 \end{abstract}
 
-\section{Submission of papers to NIPS 2018}
+\section{Introduction}
 
-NIPS requires electronic submissions.  The electronic submission site
-is
-\begin{center}
-  \url{https://cmt.research.microsoft.com/NIPS2018/}
-\end{center}
+\subsection{Motivation}
+Given the history of computer vision, machine learning has become one of the most popular 
+approaches to achieve solutions to different vision-related tasks included image classification, 
+object detection, video motion tracking, super resolution, and style transfer. In the field of object 
+detection, multiple neural network based solutions have been widely accepted and applied in many 
+situations with increasing speed and accuracy. Given the need for higher accuracy, experimenters 
+decide to further improve the accuracy on objection detection, especially on small objects detection.
 
-Please read the instructions below carefully and follow them faithfully.
+\subsection{Overview}
 
-\subsection{Style}
+\subsubsection{History}
 
-Papers to be submitted to NIPS 2018 must be prepared according to the
-instructions presented here. Papers may only be up to eight pages
-long, including figures. Additional pages \emph{containing only
-  acknowledgments and/or cited references} are allowed. Papers that
-exceed eight pages of content (ignoring references) will not be
-reviewed, or in any other way considered for presentation at the
-conference.
+Apply instant object detection has always been one of the goals of computer vision. Starting from 1970s, researchers had been researched into human vision and discovered a series of connections between neuroscience and vision system. Therefore, theories such as primal sketches had attracted enough academic attention and early computer vision started around 1970s. Later, feature-base methods such as using pose consistency(also called alignment), and other geometry primitives to analyze images and extract features. in 1990s, sliding window approaches was among one of the most popular way to recognize human faces. Meanwhile, appearance-based methods also showed potentials in mimicking biological vision system and can be therefore a key method in machine vision. Instead of early canny edge detection technique, features of an image now include more and more features and thus the variety of feature matching became heated again. In early 2000s, local features were utilized in recognition for object instances and then bag of features model prevailed, while in the same time, new features description such as scale-invariant feature transform (SIFT) and histogram of oriented gradients became some of the most common feature description until the era of machine learning. In the recent decade, application of convolution neural network based studies became the most popular topic in computer vision field and most studies were directly related to techniques or methodologies depended on deep learning. Given the huge success brought by the introduction of neural network, most vision tasks apply the methodology of end-to-end learning with significant amount of training data. 
 
 The margins in 2018 are the same as since 2007, which allow for
 $\sim$$15\%$ more words in the paper compared to earlier years.
