@@ -25,6 +25,8 @@
 \usepackage{amsfonts}       % blackboard math symbols
 \usepackage{nicefrac}       % compact symbols for 1/2, etc.
 \usepackage{microtype}      % microtypography
+\usepackage{graphicx} %Loading the package
+\graphicspath{{figures/}}
 
 \title{Seeking Methods to Improve Small Object Detection}
 
@@ -87,22 +89,37 @@ As more comprehensive datasets such PASCAL, ILSVRC, MSCOCO were available for re
 
 \subsubsection{Issue}
 
+Due to the fact that object detection network often apply artificial neural network, in which convolution and pooling are fundamental operations of neural network, the tensor height and width will shrink continuously during those operations, and therefore expand the receptive field in tensors corresponding to the original dimension in the input image. Consequently, if objects appear small in the input image, the detection network may neglect or yield a marginal confidence level for such object. Therefore, researchers would like to seek a possible method to increase the confidence level in small object detection. 
+
+\section{Experiment Proposals}
+
+Based on the given code base, the SSD algorithm is implemented through addition of layers upon VGG network, one of the most popular classification network invented in year 2014. The code transforms the final fully connected layer into additional convolutional layers with no dropout layer. For bounding box prediction, author extracts different features in between different convolutional layers. Based on the dimension of feature map and precalculated anchor sizes, anchor boxes are projected back to the original picture and bounding boxes and prediction are made. Such methodology greatly enhances the small object detection, which is to some extent compromised in YOLO structure. Based on the aforementioned chain of thoughts, we researchers intend to further enhance the confidence level of small object detection by the following various experiments.
+
+\subsection{Advancing Feature Maps to Early Layers}
+
+After multiple layers of convolution and pooling, the dimensions of the feature maps that are used for anchor box prediction are $38 \times 38, 19 \times 19, 10 \times 10, 5 \times 5, 3 \times 3, 1 \times 1 $. In this project, the effects of advancing feature maps to earlier block, for example, using an early feature map in between VGG with a dimension of $150 \times 150$ or $75 \times 75$ will be discussed later in the report.
+
+\begin{figure}
+	\centering
+	\includegraphics[height=7cm]{VGGSSDOriginal.png}
+	\caption{Convolution Neural Network with Fully Connected Layer but no Batch Normalization}	
+	\label{F1}
+	\end{figure}
 
 
-\subsection{Retrieval of style files}
+\subsection{Addition of Anchor Boxes}
 
-The style files for NIPS and other conference information are
-available on the World Wide Web at
-\begin{center}
-  \url{http://www.nips.cc/}
-\end{center}
-The file \verb+nips_2018.pdf+ contains these instructions and
-illustrates the various formatting requirements your NIPS paper must
-satisfy.
+The default anchor boxes set include 6 predetermined anchor sizes and aspect ratios, which was hypothesized and tested extensively by researchers. In addition to advance feature maps to early layers, insertion of another anchor box set may affect the final result as well. The results will be discussed in the later section.
 
-The only supported style file for NIPS 2018 is \verb+nips_2018.sty+,
-rewritten for \LaTeXe{}.  \textbf{Previous style files for \LaTeX{}
-  2.09, Microsoft Word, and RTF are no longer supported!}
+\subsection{Training Set Variation}
+
+To further exploit the structure of VGG-based neural network to realize small object detection, researchers focus on a binary human faces recognition due to the availability of human faces datasets. Therefore, instead of PASCAL VOC 2007 dataset, experimenters apply the WIDER FACE dataset to verify the effects of small object detection. 
+
+\subsection{Input Image Processing}
+
+Given the high speed of object detection by SSD, researchers also experiment on the trade-off between speed and accuracy to improve small faces detection. Cropping the images into sections and send cropped and rescaled images into the network to achieve the final results.
+
+
 
 The \LaTeX{} style file contains three optional arguments: \verb+final+,
 which creates a camera-ready copy, \verb+preprint+, which creates a

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.20)  8 JUN 2018 23:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.20)  10 JUN 2018 16:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -555,24 +555,45 @@ Package microtype Info: Loading configuration file microtype.cfg.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
 ))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 95.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count107
+))
+\Gin@req@height=\dimen129
+\Gin@req@width=\dimen130
+)
 (./COGS260FinalReport.aux)
 \openout1 = `COGS260FinalReport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 56.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 58.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -644,24 +665,24 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box26
-Package hyperref Info: Link coloring OFF on input line 56.
+Package hyperref Info: Link coloring OFF on input line 58.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count107
+\c@section@level=\count108
 )
-LaTeX Info: Redefining \ref on input line 56.
-LaTeX Info: Redefining \pageref on input line 56.
-LaTeX Info: Redefining \nameref on input line 56.
+LaTeX Info: Redefining \ref on input line 58.
+LaTeX Info: Redefining \pageref on input line 58.
+LaTeX Info: Redefining \nameref on input line 58.
 
 (./COGS260FinalReport.out) (./COGS260FinalReport.out)
 \@outlinefile=\write3
 \openout3 = `COGS260FinalReport.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 56.
+LaTeX Info: Redefining \microtypecontext on input line 58.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -675,14 +696,42 @@ Package microtype Info: No adjustment of character kerning.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count109
+\scratchdimen=\dimen131
+\scratchbox=\box27
+\nofMPsegments=\count110
+\nofMParguments=\count111
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count112
+\MPscratchDim=\dimen132
+\MPnumerator=\count113
+\makeMPintoPDFobject=\count114
+\everyMPtoPDFconversion=\toks21
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 60.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 62.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 60.
+LaTeX Font Info:    Try loading font information for U+msa on input line 62.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -690,7 +739,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 60.
+LaTeX Font Info:    Try loading font information for U+msb on input line 62.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -699,8 +748,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 60.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 60.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 62.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 62.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -710,51 +759,50 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 61.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 63.
  [1
 
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 105.
- [2] [3] [4]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 311.
+<figures/VGGSSDOriginal.png, id=103, 1097.09875pt x 550.055pt>
+File: figures/VGGSSDOriginal.png Graphic file (type png)
 
+<use figures/VGGSSDOriginal.png>
+Package pdftex.def Info: figures/VGGSSDOriginal.png used on input line 104.
+(pdftex.def)             Requested size: 397.24869pt x 199.16928pt.
+ [2] [3 <./figures/VGGSSDOriginal.png>]
+[4] [5]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 328.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsptm.fd
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 311.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 328.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 364.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 378.
- [5]
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 395.
+
+[6]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 395.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 397.
- [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 397.
-
-(./COGS260FinalReport.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 397.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 397.
-
-
-Package rerunfilecheck Warning: File `COGS260FinalReport.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `COGS260FinalReport.out':
-(rerunfilecheck)             Before: 297197F1FFDEA6AFA3C6D0672A89A6E5;1071
-(rerunfilecheck)             After:  4DAE0BBF1BB8A396A274CA44281B2BDB;1136.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 397.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 412.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 414.
+ [7]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 414.
+ (./COGS260FinalReport.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 414.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 414.
+Package rerunfilecheck Info: File `COGS260FinalReport.out' has not changed.
+(rerunfilecheck)             Checksum: 41A8D37C835D4B19415F90D283D0BAED;1424.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 414.
  ) 
 Here is how much of TeX's memory you used:
- 7519 strings out of 493033
- 113551 string characters out of 6134139
- 229626 words of memory out of 5000000
- 10796 multiletter control sequences out of 15000+600000
- 52370 words of font info for 147 fonts, out of 8000000 for 9000
+ 8360 strings out of 493033
+ 125358 string characters out of 6134139
+ 245586 words of memory out of 5000000
+ 11589 multiletter control sequences out of 15000+600000
+ 52760 words of font info for 153 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  31i,10n,35p,1709b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
@@ -771,10 +819,10 @@ exmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/20
 t/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
 ype1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/t
 imes/utmri8a.pfb>
-Output written on COGS260FinalReport.pdf (6 pages, 154487 bytes).
+Output written on COGS260FinalReport.pdf (7 pages, 222201 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
- 161 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
- 26249 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 214 PDF objects out of 1000 (max. 8388607)
+ 189 compressed objects within 2 object streams
+ 39 named destinations out of 1000 (max. 500000)
+ 26294 words of extra memory for PDF output out of 29859 (max. 10000000)
 
